@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-videobelajar</title>
+    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/9f641731ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="aset/Logo.png" alt="videobelajar">
+        </div>
+    </header>
+    <main class="container">
+        <div class="regis-box">
+            <div class="title">
+                <h3>Pendaftaran akun</h3>
+                <p>Yuk, daftarkan akunmu sekarang juga!</p>
+            </div>
+            
+            <form class="form-regis">
+                <div class="form-grup">
+                    <label class="form-label" for="namalengkap">Nama Lengkap<span>*</span></label>
+                    <input class="form-input" type="text">
+                </div>
+
+                <div class="form-grup">
+                    <label class="form-label" for="email">E-Mail<span>*</span></label>
+                    <input class="form-input" type="email">
+                </div>
+
+                <div class="form-grup">
+                    <label class="form-label" for="jeniskelamin">Jenis Kelamin<span>*</span></label>
+                        <select class="form-input">
+                            <option value="female">Wanita</option>
+                            <option value="male">Pria</option>
+                        </select>                
+                </div>
+
+                <div class="form-grup">
+                    <label class="form-label" for="nohp">No hp<span>*</span></label>
+                    <div class="phone-container">
+                        <select class="no-phone">
+                            <option value="+62 ">+62</option>
+                        </select>
+                        <input class="form-input" type="text">
+                    </div>
+                </div>
+
+                <div class="form-grup">
+                    <label class="form-label" for="password">Kata Sandi<span>*</span></label>
+                    <div class="password-wrapper">
+                        <input class="form-input" type="password">
+                        <i class="fa-solid fa-eye-slash toggle-password"></i>
+                    </div>
+                </div>
+
+                <div class="form-grup">
+                    <label class="form-label" for="repassword">Konfirmasi Kata Sandi<span>*</span></label>
+                    <div class="password-wrapper">
+                        <input class="form-input" type="password">
+                        <i class="fa-solid fa-eye-slash toggle-password"></i>
+                    </div>
+                </div>
+                
+                <div class="forgot">
+                    <a href="#"><p>Lupa password?</p></a>
+                </div>
+                
+                <div class="btn">
+                    <button class="btn-daftar">Daftar</button>
+                    <button class="btn-masuk"><a class="link-green" href="index.html">Masuk</a></button>
+                </div>
+
+                <div class="divider"><p>atau</p></div>
+                
+                <button class="btn-google"><img src="aset/logos_google-icon.png" alt="google-icon">Masuk dengan Google</button>
+            </form>
+        </div>
+        
+    </main>
+</body>
+</html>
